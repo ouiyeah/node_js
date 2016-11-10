@@ -19,3 +19,5 @@
 >$ sudo apt-get install npm
 
 >$ npm -v
+
+>$ npm install mysql express ...
