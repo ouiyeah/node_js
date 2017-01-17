@@ -1,22 +1,19 @@
 # install node.js
 
->$ git clone https://github.com/nodejs/node.git
+open https://nodejs.org/en/download/
 
->$ sudo chmod -R 755 node
+![node_download](https://raw.githubusercontent.com/ouiyeah/node_js/master/img/node_download.png "node_download")
 
->$ cd node
+uncompress node package and export environments at the end of '.bashrc' (for linux)
 
->$ sudo ./configure
+>$ sudo mv [node_dir] /usr/lib/node
 
->$ sudo make
+>$ vi ~/.bashrc
 
->$ sudo make install
+    export NODE_HOME=/usr/lib/node
+    export PATH=${NODE_HOME}/bin:$PATH
 
 >$ node -v
-
-# install npm tools
-
->$ sudo apt-get install npm
 
 >$ npm -v
 
