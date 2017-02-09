@@ -16,4 +16,4 @@ uncompress node package and export environments at the end of '.bashrc' (for lin
 
 #install node_modules
 
->$ npm install ws mysql express ...
+>$ npm install -g rosnodejs ws express log4js grunt mysql crypto body-parser sequelize pdfkit
