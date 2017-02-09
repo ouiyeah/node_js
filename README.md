@@ -11,8 +11,9 @@ uncompress node package and export environments at the end of '.bashrc' (for lin
 >$ vi ~/.bashrc
 
     export NODE_HOME=/usr/lib/node
+    export NODE_PATH=${NODE_HOME}/lib/node_modules
     export PATH=${NODE_HOME}/bin:$PATH
 
 #install node_modules
 
->$ npm install mysql express ...
+>$ npm install ws mysql express ...
