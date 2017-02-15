@@ -16,4 +16,10 @@ uncompress node package and export environments at the end of '.bashrc' (for lin
 
 #install node_modules
 
->$ npm install -g rosnodejs ws express log4js mysql crypto body-parser sequelize pdfkit grunt grunt-contrib-uglify grunt-contrib-cssmin uglify
+>$ npm install -g rosnodejs ws express log4js mysql crypto body-parser sequelize pdfkit grunt grunt-contrib-uglify grunt-contrib-cssmin grunt-cli
+
+link local 
+
+>$ cd ~/catkin_ws/www/server
+
+>$ sudo ln -s /usr/lib/node/lib/node_modules node_modules
